@@ -2,7 +2,7 @@ PFB2012
 =======
 
 Code and samples from lecture and review sessions
-1.go to https://github.com/
+1. go to https://github.com/
 - create an account
 - change into a directory that you want the repo to go.
 - go to https://github.com/srobb1/PFB2012
