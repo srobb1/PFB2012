@@ -12,3 +12,4 @@ Code and samples from lecture and review sessions
 7. (Deb, not sure if this one is right until you test it.) every time we add new scripts to the repo you can get the new files or any changes by
 	1. by changing into the PFB2012 directory
 	2. typing 'git pull https://github.com/yourUserName/PFB2012.git'
+        3. this pull command will overright any changes you made (i think). how do we keep the student changes if they added notes and get the newest files?
