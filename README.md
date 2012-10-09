@@ -3,8 +3,7 @@ PFB2012
 
 Code and samples from lecture and review sessions
 
-To get, keep up-to-date and to add your own files to your own branch follow these instructions.
-These were summarized from https://help.github.com/articles/fork-a-repo
+To get class scripts as they are stored to this repository and to add your own files to your own branch, that can be accessed later from anywhere, follow these instructions.  The steps were summarized from https://help.github.com/articles/fork-a-repo
 
 1. go to https://github.com/
 2. create an account.
