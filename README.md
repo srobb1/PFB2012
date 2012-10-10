@@ -42,9 +42,11 @@ Steps to do only *ONE* time for set up:
 	- type this in your terminal 
 		- git remote add upstream https://github.com/srobb1/PFB2012.git 
 		- this assigns the original repo to a remote called "upstream"
+
 ---
 
 Steps to update the orginal repository and to add files to your personal repo
+These steps can be done as many times as you like
 
 1. To get new files from the orignal PFB2012 repo you need to do this:
 	- git fetch upstream 
