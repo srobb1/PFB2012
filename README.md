@@ -5,7 +5,7 @@ Code and samples from lecture and review sessions
 
 To get class scripts as we add them to this repository, PFB2012,  and to add your own files to your own personal repository. The steps were summarized from https://help.github.com/articles/fork-a-repo
 
-This repository and your personal repositories are accessible from github now and later from anywhere. Follow these instructions to set up git and to get sstarted. 
+This repository and your personal repositories are accessible from github now and later from anywhere. Follow these instructions to set up git and to get started. 
 
 ---
 Sofia's Definitions
@@ -13,7 +13,7 @@ Sofia's Definitions
 - Fork      : A copy of a repository (repo) that you can change and edit. 
 - Clone     : The act of copying a repo
 - Merge     : ***I am not sure what is lost or kept in a merge 
-- git add	  : Add files to a list of files that are ready for a commit
+- git add   : Add files to a list of files that are ready for a commit
 - git commit: Save a version of the file to be sent to GitHub later with a push
 - git push  : Send files that have been committed to GitHub 
 
@@ -22,8 +22,8 @@ Steps to do only *ONE* time for set up:
 
 1. go to https://github.com/
 2. create an account.
-3. set up github on your local machine -- skip the install, go to set up
-	1. https://help.github.com/articles/set-up-git
+3. set up github on your local machine -- skip the install, go to "set up"
+	- https://help.github.com/articles/set-up-git
 		1. git config --global user.name "Your Name Here"
 		   Sets the default name for git to use when you commit
 		2. git config --global user.email "your_email@youremail.com"
