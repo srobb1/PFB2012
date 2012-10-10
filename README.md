@@ -45,7 +45,8 @@ Steps to do only *ONE* time for set up:
 
 ---
 
-Steps to update the orginal repository and to add files to your personal repo
+Steps to update the orginal repository and to add files to your personal repo.
+
 These steps can be done as many times as you like
 
 1. To get new files from the orignal PFB2012 repo you need to do this:
