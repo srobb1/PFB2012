@@ -19,6 +19,7 @@ Sofia's Definitions
 
 ---
 Steps to do only one time for set up:
+
 1. go to https://github.com/
 2. create an account.
 3. set up github on your local machine -- skip the install, go to set up
