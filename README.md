@@ -10,12 +10,12 @@ This repository and your personal repositories are accessible from github now an
 ---
 Sofia's Definitions
 Repository: A place to store scripts. In our case it is at a remote location on the servers of GitHub.
-Fork      : A copy of a repository (repo) that you can change and edit. 
-Clone     : The act of copying a repo
-Merge     : ***I am not sure what is lost or kept in a merge 
-git add	  : Add files to a list of files that are ready for a commit
-git commit: Save a version of the file to be sent to GitHub later with a push
-git push  : Send files that have been committed to GitHub 
+-Fork      : A copy of a repository (repo) that you can change and edit. 
+-Clone     : The act of copying a repo
+-Merge     : ***I am not sure what is lost or kept in a merge 
+-git add	  : Add files to a list of files that are ready for a commit
+-git commit: Save a version of the file to be sent to GitHub later with a push
+-git push  : Send files that have been committed to GitHub 
 ---
 
 1. go to https://github.com/
