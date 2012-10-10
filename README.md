@@ -18,29 +18,39 @@ Sofia's Definitions
 - git push  : Send files that have been committed to GitHub 
 
 ---
-
+Steps to do only one time for set up:
 1. go to https://github.com/
 2. create an account.
 3. set up github on your local machine -- skip the install, go to set up
 	1. https://help.github.com/articles/set-up-git
 		1. git config --global user.name "Your Name Here"
-		   # Sets the default name for git to use when you commit
+		   Sets the default name for git to use when you commit
 		2. git config --global user.email "your_email@youremail.com"
-		   # Sets the default email for git to use when you commit
-		   # Your email address should be the same one associated with your GitHub account
+		   Sets the default email for git to use when you commit
+		   Your email address should be the same one associated with your GitHub account
 		3. git config --global credential.helper osxkeychain
-		   # Set git to use the osxkeychain credential helper
+		   Set git to use the osxkeychain credential helper
 3. change into a directory that you want the repo to go.
 4. go to https://github.com/srobb1/PFB2012
 5. Click on the FORK button
 5. go to http button, copy the address
-6. in your terminal type 'git clone https://github.com/yourGitUserName/PFB2012.git'
-7. You can add files, change files, make directories and files for problem sets and other notes
+6. To set the repo that is active in your directory of your local machine and to get any files present in the repo for the first time
+	- type this in your terminal 
+		- git clone https://github.com/yourGitUserName/PFB2012.git
+7. To differntiate your personal PFB2012 repository from the orginal PFB2012 repository
+	- type this in your terminal 
+		- git remote add upstream https://github.com/srobb1/PFB2012.git 
+		- this assigns the original repo to a remote called "upstream"
+
+
+Steps to update the orginal repository
+1. To get new files from the orignal PFB2012 repo you need to do this:
+	- git fetch upstream 
+	- this pulls in changes not present in your local repository, without modifying your files
+
+9. To merge the files in your personal repository you can do this
+	- git merge upstream/master
+7. You can add keep your own version of everything in your personal repo. Add files, change files, and make directories for problem sets and other notes
 	1. git add path_to_new_file
 	2. git commit -m 'note about file'
 	3. git push origin master 
-8. To get new files from the orignal PFB2012 repo you need to do this:
-	1. (one time only) git remote add upstream https://github.com/srobb1/PFB2012.git #Assigns the original repo to a remote called "upstream"
-	2. (every time) git fetch upstream #Pulls in changes not present in your local repository, without modifying your files
-9. To merge the files in your personal repository you can do this
-	1. git merge upstream/master #Merges any changes fetched into your working files
