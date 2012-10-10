@@ -36,12 +36,13 @@ Steps to do only *ONE* time for set up:
 5. Click on the FORK button
 5. go to http button, copy the address
 6. To set the repo that is active in your directory of your local machine and to get any files present in the repo for the first time
-	- type this in your terminal 
+	- type this in your terminal, pasting the address over
 		- git clone https://github.com/yourGitUserName/PFB2012.git
-7. To differntiate your personal PFB2012 repository from the orginal PFB2012 repository
-	- type this in your terminal 
+7. To differentiate your personal PFB2012 repository from the orginal PFB2012 repository
+	- cd into the directory and type this in your terminal (note the username: srobb1)
+		- cd PFB2012
 		- git remote add upstream https://github.com/srobb1/PFB2012.git 
-		- this assigns the original repo to a remote called "upstream"
+	- this assigns the original repo to a remote called "upstream"
 
 ---
 
