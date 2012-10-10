@@ -18,7 +18,7 @@ Sofia's Definitions
 - git push  : Send files that have been committed to GitHub 
 
 ---
-Steps to do only one time for set up:
+Steps to do only *ONE* time for set up:
 
 1. go to https://github.com/
 2. create an account.
@@ -44,11 +44,11 @@ Steps to do only one time for set up:
 		- this assigns the original repo to a remote called "upstream"
 
 
-Steps to update the orginal repository
+Steps to update the orginal repository and to add files to your personal repo
+
 1. To get new files from the orignal PFB2012 repo you need to do this:
 	- git fetch upstream 
 	- this pulls in changes not present in your local repository, without modifying your files
-
 9. To merge the files in your personal repository you can do this
 	- git merge upstream/master
 7. You can add keep your own version of everything in your personal repo. Add files, change files, and make directories for problem sets and other notes
