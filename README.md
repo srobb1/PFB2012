@@ -29,8 +29,6 @@ Steps to do only *ONE* time for set up:
 		2. git config --global user.email "your_email@youremail.com"
 		   Sets the default email for git to use when you commit
 		   Your email address should be the same one associated with your GitHub account
-		3. git config --global credential.helper osxkeychain
-		   Set git to use the osxkeychain credential helper
 3. change into a directory that you want the repo to go.
 4. go to https://github.com/srobb1/PFB2012
 5. Click on the FORK button
