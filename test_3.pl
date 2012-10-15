@@ -8,3 +8,5 @@ print "and this third line\n";
 my @a = "An Array Of 5 elements";
 
 print "@a"; # quick dump of array for print
+
+exit(0);
