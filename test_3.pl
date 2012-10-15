@@ -2,5 +2,5 @@
 use strict;
 use warnings;
 
-print "By shawn a beer!\n";
+print "Buy shawn a beer!\n";
 
