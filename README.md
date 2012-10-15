@@ -39,7 +39,7 @@ Steps to do only *ONE* time for set up:
 	- type this in your terminal, pasting the address over
 		- git clone https://github.com/yourGitUserName/PFB2012.git
 7. To differentiate your personal PFB2012 repository from the orginal PFB2012 repository
-	- cd into the directory and type this in your terminal (note the username: srobb1)
+	- type this in your terminal (note the username: srobb1)
 		- cd PFB2012
 		- git remote add upstream https://github.com/srobb1/PFB2012.git 
 	- this assigns the original repo to a remote called "upstream"
