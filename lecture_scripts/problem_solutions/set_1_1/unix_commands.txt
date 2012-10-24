@@ -1,0 +1,50 @@
+Log into your machine or account. What is the full path to your home directory?
+    > pwd
+  How many files does it contain?
+    ## look for names that do not end with "/"
+    > ls -F
+  How many directories?
+    ## look for names that end with "/"
+    > ls -F
+
+Without using a text editor examine the contents of the file sequences.fasta.
+  How many lines does this file contain?
+    > wc -l sequences.fasta
+  How many characters?
+    > wc -c sequences.fasta
+  What is the first line of this file?
+    > head -1 sequences.fasta
+  What are the last 3 lines?
+    > tail -3 sequences.fasta
+  How many sequences are in the file?
+    ## grep will only print the lines that contain ">" in the file (headers)
+    ## pipe the result to "wc -l" to count the number of lines
+    > grep ">" sequences.fasta | wc -l
+
+Rename sequences.fasta to something more informative of the sequences the file contains. 
+    > mv sequences.fasta my_random_sequences.fasta
+
+Create a directory called fasta
+    > mkdir fasta
+
+Copy the fasta file that you renamed to the fasta directory
+    > cp my_random_sequences.fasta fasta
+
+Verify that the file is within the fasta directory
+    ## you can visually inspect the output from "ls fasta/" or use
+    ## "ls fasta/my_random_sequences.fasta" directly to see if the file
+    ## is there - if it lists, it's fine, otherwise it will given an error
+    > ls fasta/my_random_sequences.fasta
+
+Delete the the original file that you used for copying
+    > rm my_random_sequences.fasta
+
+Copy a directory
+    ## copy "fasta" directory and its contents to "fasta_copy"
+    ## the "-r" flag tells "cp" to copy recursively
+    > cp -r fasta fasta_copy
+
+Remove a directory
+    ## remove the "fasta" directory and its contents
+    ## the "-r" flag tells "rm" to copy recursively
+    > rm -r fasta

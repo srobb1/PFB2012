@@ -1,0 +1,7 @@
+Two numbers are required.
+Numbers have to be positive.
+Divisor cannot be zero.
+Write the quotient to STDOUT
+Write any errors to STDERR
+Redirect STDOUT to an output file (out.txt)
+Redirect STDERR to an error file (err.txt)
